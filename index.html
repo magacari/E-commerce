@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  ********* Titulo de Pagina ********* -->
+
+    <title>Tienda online</title>
+
+    <!--  *********Links de Estilos Css********* -->
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--  *********Links de fuentes********* -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">TIENDA ONLINE</h1>
+                <span class="icon-menu fa-solid fa-bars" id="btn-menu"></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="" class="menu__link">INICIO</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">SOBRE NOSOTROS</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">CARACTERISTICAS</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">TIENDA</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
+                    </ul>
+                </navc>
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Ayuda</span>
+                <p class="main-header__txt"><i class="fa-solid fa-phone"></i> Numero 123456879</p>
+            </div>
+            <div class="main-header__container">
+                <i class="fa-solid fa-user"></i>
+                <a href="" class="main-header__btn">Carrito <i class="fa-solid fa-cart-shopping"></i></a>
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="./public/image/sliderimg1.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">ARMA TU MEJOR SETUP</h2>
+                    <p class="slider__txt">Descuentos de hasta el 30%</p>
+                    <a href="" class="slider__link">DESCUBRIR</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="./public/image/sliderimg2.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">OBTEN LA MEJOR ELEGANCIA</h2>
+                    <p class="slider__txt">Descuentos de hasta el 30%</p>
+                    <a href="" class="slider__link">DESCUBRIR</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="./public/image/sliderimg3.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">ENCONTRA LAS MEJORES MARCAS</h2>
+                    <p class="slider__txt">Descuentos de hasta el 30%</p>
+                    <a href="" class="slider__link">DESCUBRIR</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <main class="main">
+        <div class="container">
+            <h2 class="main-title">Productos</h2>
+            <section class="container-products">
+            <div class="product">
+                <img src="./public/image/fuentePC.png" alt="" class="product__img">
+                <div class="product__description">
+                    <h3 class="product__title">Fuente de PC</h3>
+                    <span class="product__price">$ 8.000</span>
+                </div>
+                <i class="product__icon fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product">
+                <img src="./public/image/hddWD.png" alt="" class="product__img">
+                <div class="product__description">
+                    <h3 class="product__title">Disco Rigido 1TB</h3>
+                    <span class="product__price">$ 7.500</span>
+                </div>
+                <i class="product__icon fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product">
+                <img src="./public/image/memoriaRam.png" alt="" class="product__img">
+                <div class="product__description">
+                    <h3 class="product__title">Memoria RAM ddr4</h3>
+                    <span class="product__price">$ 5.500</span>
+                </div>
+                <i class="product__icon fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="product">
+                <img src="./public/image/ssdKingston.png" alt="" class="product__img">
+                <div class="product__description">
+                    <h3 class="product__title">Disco SSD 240GB</h3>
+                    <span class="product__price">$ 8.500</span>
+                </div>
+                <i class="product__icon fa-solid fa-cart-plus"></i>
+            </div>
+        </section>
+        </div>
+        
+    </main>
+
+    <script src="./js/slider.js"></script>
+</body>
+</html>
