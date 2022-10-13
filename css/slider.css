@@ -82,5 +82,30 @@
     text-align: center;
     text-decoration: none;
     width: 150px;
-    margin: 10px auto;
+    margin: 20px auto;
+    transition: all 0.5s;
+}
+.btn-shop:hover {
+    background: #FF4E00;
+    color: white;
+}
+
+/*----------Estilos para tablet---------------*/
+@media screen and (min-width:768px) {
+    .slider{
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .slider{
+        height: 500px;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .slider{
+        height: 600px;
+    }
 }
